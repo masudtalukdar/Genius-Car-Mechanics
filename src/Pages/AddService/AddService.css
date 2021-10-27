@@ -1,0 +1,17 @@
+.add-service form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-service form input,
+textarea {
+  width: 40%;
+  margin-bottom: 10px;
+  border: 2px solid purple;
+  border-radius: 10px;
+}
+.submit:hover {
+  color: whitesmoke;
+  background-color: purple;
+}
